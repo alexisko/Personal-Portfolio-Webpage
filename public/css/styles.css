@@ -1,0 +1,35 @@
+.learn-more {
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  min-height: 95%;
+  min-height: 95vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.feature {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer {
+  background-color: grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
