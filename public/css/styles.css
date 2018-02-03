@@ -1,35 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+/*---MAIN STYLES---*/
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a, a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+section {
+  border: 15px solid #fff;
+  padding: 5rem 0rem;
+  margin-top: -15px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*---NAVBAR---*/
+.navbar {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  color: white;
+}
+
+.navbar > a {
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+.navbar > a:hover {
+  background-color: gold;
+  color: white;
+}
+
+/*---HOME---*/
+.jumbotron {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  border: 15px solid #fff;
+  background: linear-gradient(lightcoral, steelblue);
+
+  font-weight: 400;
+  color: white;
+
+  padding: 0rem 3.5rem;
+
+  margin-bottom: 0;
+}
+
+#opening-text {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 .learn-more {
   position: absolute;
   left: 50%;
-  bottom: 3%;
+  bottom: 5%;
 }
 
-.navbar {
-  margin-bottom: 0px;
+/*---ABOUT---*/
+
+/*---SKILLS---*/
+
+/*---CONTACT---*/
+#contact {
+  background-color: gold;
+  padding: 10rem 0rem;
 }
 
-.navbar-style {
+.contact-text {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.contact-text > a {
+  background-color: lightcoral;
+  color: white;
+}
+
+/*---FOOTER---*/
+.footer {
+  background-color: #505050;
+  padding: 3rem 0;
+}
+
+.social-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
-.jumbotron {
-  min-height: 95%;
-  min-height: 95vh;
-
+.social-links a {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #404040;
+  border-radius: 45px;
+  width: 40px;
+  height: 40px;
+  margin: 1rem 1rem;
 }
 
-.feature {
-  padding-left: 50px;
-  padding-right: 50px;
+.social-links a:hover {
+  background-color: #303030;
+  transition: all .3s ease-in-out;
 }
 
-.footer {
-  background-color: grey;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.footer-text {
+  margin-top: 4rem;
+  color: white;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  section {
+    padding: 10rem 0rem;
+  }
 }

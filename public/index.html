@@ -5,74 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Alexis Okamura</title>
+    <title>Alexis Okamura | Full Stack Developer | Based in Honolulu, HI</title>
 
     <!-- Bootstrap CSS -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-static-top">
-      <div class="container">
-        <div id="navbar">
-          <ul class="nav navbar-nav navbar-right navbar-style">
-            <li><a href="#about">About</a></li>
-            <li>/</li>
-            <li><a href="#protfolio">Portfolio</a></li>
-            <li>/</li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="navbar">
+      <a href="#">ABOUT</a> /
+      <a href="#">SKILLS</a> /
+      <a href="Alexis-Okamura-Resume.pdf" target="_blank">RESUME</a> /
+      <a href="#">CONTACT</a>
+    </div><!-- /.navbar -->
 
     <div class="jumbotron">
-      <div class="container text-center">
-        <h1>Hi there! I'm Alexis.</h1>
-        <p>I'm a front-end developer from Honolulu, HI.</p>
+      <div class="container">
+        <h1 id="opening-text">Hi there!</h1>
+        <p>I'm Alexis Okamura a Full Stack Developer from Honolulu, HI.</p>
         <div class="learn-more">
           <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
         </div>
       </div><!-- /.container -->
     </div><!-- /.jumbotron -->
 
-    <div class="container feature" id="about">
-      <h1>ABOUT</h1>
-    </div>
+    <section id="about">
+      <div class="container">
+        <h1>ABOUT</h1>
+        <div>
+          <p>First things first, I’m Alexis not Alexa. (You don’t know how many people have called me that!)</p>
+          <p>I recently received my BA in Computer Science and completed Devleague’s Javascript Web Engineer program.  I am passionate about creating great user experiences and interfaces as beautiful as the sunsets I see everyday at home.</p>
+          <p>When I’m not stuck in front of a computer, I’m always in search of good eats and a good time.  Either that or I’m jumping on a plane to my next destination.</p>
+          <p>Currently seeking full-time opportunities on the West Coast!</p>
+        </div>
+      </div><!-- /.container -->
+    </section><!-- /.section -->
 
-    <div class="container feature" id="portfolio">
-      <h1>PROJECTS</h1>
-    </div>
+    <section id="skills">
+      <div class="container">
+        <h1>SKILLS</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>LANGUAGES</h3>
+            <p>JavaScript</p>
+            <p>Java</p>
+            <p>HTML</p>
+            <p>CSS/SCSS</p>
+            <p>SQL</p>
+          </div>
+          <div class="col-md-4">
+            <h3>FRAMEWORKS</h3>
+            <p>Node</p>
+            <p>React</p>
+            <p>AngularJS</p>
+            <p>Express</p>
+            <p>Bootstrap</p>
+            <p>jQuery</p>
+          </div>
+          <div class="col-md-4">
+            <h3>TOOLS</h3>
+            <p>Git &amp; Github</p>
+            <p>Chrome DevTools</p>
+            <p>Postman</p>
+            <p>Gulp</p>
+            <p>Eclipse</p>
+          </div>
+        </div>
+      </div><!-- /.container -->
+    </section><!-- /.section -->
 
-    <div class="container feature" id="contact">
-      <h1>CONTACT</h1>
-    </div>
+    <section id="contact">
+      <div class="container">
+          <h1>CONTACT</h1>
+          <div class="contact-text">
+            <p>Interested in working together?</p>
+            <p>Shoot me an email and lets talk story. &#x1F919;</p>
+            <br>
+            <a href="#"><u>alexiskokamura@gmail.com</u></a>
+          </div>
+      </div><!-- /.container -->
+    </section><!-- /.section -->
 
     <footer class="footer navbar-static-bottom">
-      <div class="container text-center">
-        <p>Alexis Okamura &#169; 2018.</p>
-        <div>
+      <div class="container">
+        <p class="footer-text">Designed + Developed by Alexis Okamura 2018</p>
+        <div class="social-links">
           <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-codepen fa-inverse"></i>
           </a>
           <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-      </div>
-    </footer>
+      </div><!-- /.container -->
+    </footer><!-- /.footer -->
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
