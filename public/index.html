@@ -12,11 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
+    <div id="top"></div>
     <div class="navbar">
-      <a href="#">ABOUT</a> /
-      <a href="#">SKILLS</a> /
+      <a href="#skills">SKILLS</a> /
       <a href="Alexis-Okamura-Resume.pdf" target="_blank">RESUME</a> /
-      <a href="#">CONTACT</a>
+      <a href="#contact">CONTACT</a>
     </div><!-- /.navbar -->
 
     <div class="jumbotron">
@@ -24,22 +24,12 @@
         <h1 id="opening-text">Hi there!</h1>
         <p>I'm Alexis Okamura a Full Stack Developer from Honolulu, HI.</p>
         <div class="learn-more">
-          <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
+          <a href="#skills" class="up">
+            <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
+          </a>
         </div>
       </div><!-- /.container -->
     </div><!-- /.jumbotron -->
-
-    <section id="about">
-      <div class="container">
-        <h1>ABOUT</h1>
-        <div>
-          <p>First things first, I’m Alexis not Alexa. (You don’t know how many people have called me that!)</p>
-          <p>I recently received my BA in Computer Science and completed Devleague’s Javascript Web Engineer program.  I am passionate about creating great user experiences and interfaces as beautiful as the sunsets I see everyday at home.</p>
-          <p>When I’m not stuck in front of a computer, I’m always in search of good eats and a good time.  Either that or I’m jumping on a plane to my next destination.</p>
-          <p>Currently seeking full-time opportunities on the West Coast!</p>
-        </div>
-      </div><!-- /.container -->
-    </section><!-- /.section -->
 
     <section id="skills">
       <div class="container">
@@ -79,24 +69,29 @@
           <h1>CONTACT</h1>
           <div class="contact-text">
             <p>Interested in working together?</p>
-            <p>Shoot me an email and lets talk story. &#x1F919;</p>
+            <p>Shoot me an email and lets talk story.</p>
             <br>
-            <a href="#"><u>alexiskokamura@gmail.com</u></a>
+            <a href="mailto:alexiskokamura@gmail.com">
+              <i class="fa fa-envelope fa-2x"></i>
+            </a>
           </div>
       </div><!-- /.container -->
     </section><!-- /.section -->
 
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <p class="footer-text">Designed + Developed by Alexis Okamura 2018</p>
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <p class="footer-text">Designed + Developed by <u>Alexis Okamura</u> 2018</p>
         <div class="social-links">
-          <a href="#">
+          <a href="https://codepen.io/alexisko/" target="_blank">
             <i class="fa fa-codepen fa-inverse"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/alexis-ko/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/alexisko" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -108,5 +103,6 @@
     <!-- Bootstrap JS -->
     <script src="https://use.fontawesome.com/c384233445.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

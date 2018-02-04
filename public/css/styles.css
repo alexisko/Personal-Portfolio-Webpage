@@ -7,16 +7,20 @@ body {
   text-align: center;
 }
 
-a, a:hover,
-a:visited,
+a, a:link,
+a:hover, a:visited,
 a:active {
   text-decoration: none;
 }
 
+a:hover {
+  transition: all .3s ease-in-out;
+}
+
 section {
-  border: 15px solid #fff;
-  padding: 5rem 0rem;
-  margin-top: -15px;
+  border: 10px solid #fff;
+  padding: 6rem 0rem;
+  margin-top: -10px;
 }
 
 h1 {
@@ -35,13 +39,13 @@ p {
   color: white;
 }
 
-.navbar > a {
+.navbar a {
   font-weight: 700;
   padding-left: 5px;
   padding-right: 5px;
   color: white;
 }
-.navbar > a:hover {
+.navbar a:hover {
   background-color: gold;
   color: white;
 }
@@ -54,7 +58,7 @@ p {
   display: flex;
   align-items: center;
 
-  border: 15px solid #fff;
+  border: 10px solid #fff;
   background: linear-gradient(lightcoral, steelblue);
 
   font-weight: 400;
@@ -69,6 +73,7 @@ p {
   font-size: 7rem;
   font-weight: 700;
   margin-bottom: 0;
+  text-shadow: 5px 5px 0 lightcoral;
 }
 
 .learn-more {
@@ -77,14 +82,18 @@ p {
   bottom: 5%;
 }
 
-/*---ABOUT---*/
+.up i {
+  color: white;
+}
 
 /*---SKILLS---*/
+#skills {
+  background-color: #f0f0f0;
+}
 
 /*---CONTACT---*/
 #contact {
   background-color: gold;
-  padding: 10rem 0rem;
 }
 
 .contact-text {
@@ -92,14 +101,17 @@ p {
   font-size: 1.5rem;
 }
 
-.contact-text > a {
-  background-color: lightcoral;
+.contact-text a {
+  color: #333333;
+}
+
+.contact-text a:hover {
   color: white;
 }
 
 /*---FOOTER---*/
 .footer {
-  background-color: #505050;
+  background-color: #333333;
   padding: 3rem 0;
 }
 
@@ -113,7 +125,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #404040;
+  background-color: #505050;
   border-radius: 45px;
   width: 40px;
   height: 40px;
@@ -121,12 +133,15 @@ p {
 }
 
 .social-links a:hover {
-  background-color: #303030;
-  transition: all .3s ease-in-out;
+  background-color: #404040;
+}
+
+.back-to-top i {
+  color: white;
+  margin: 2rem 0 1rem;
 }
 
 .footer-text {
-  margin-top: 4rem;
   color: white;
 }
 
@@ -134,5 +149,9 @@ p {
 @media (min-width: 768px) {
   section {
     padding: 10rem 0rem;
+  }
+
+  #opening-text {
+    font-size: 9rem;
   }
 }
