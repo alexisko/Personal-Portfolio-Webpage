@@ -98,6 +98,10 @@ p {
   height: 200px;
 }
 
+.tech-stack {
+  margin-bottom: 1rem;
+}
+
 /*---CONTACT---*/
 #contact {
   background-color: gold;
@@ -145,7 +149,7 @@ p {
 
 .back-to-top i {
   color: white;
-  margin: 2rem 0 1rem;
+  margin: 0.7rem 0 1rem;
 }
 
 .footer-text {
